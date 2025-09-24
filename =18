@@ -1,0 +1,151 @@
+Retrieving notices: - \ done
+Channels:
+ - conda-forge
+ - defaults
+ - nvidia
+ - pytorch
+Platform: linux-64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /home/gildroid/miniconda3
+
+  added / updated specs:
+    - nodejs
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    ca-certificates-2025.8.3   |       hbd8a1cb_0         151 KB  conda-forge
+    certifi-2025.8.3           |     pyhd8ed1ab_0         155 KB  conda-forge
+    icu-73.2                   |       h59595ed_0        11.5 MB  conda-forge
+    libuv-1.48.0               |       hd590300_0         879 KB  conda-forge
+    nodejs-20.12.2             |       hb753e55_0        16.4 MB  conda-forge
+    openssl-3.5.2              |       h26f9b46_0         3.0 MB  conda-forge
+    ------------------------------------------------------------
+                                           Total:        32.1 MB
+
+The following NEW packages will be INSTALLED:
+
+  libuv              conda-forge/linux-64::libuv-1.48.0-hd590300_0 
+  nodejs             conda-forge/linux-64::nodejs-20.12.2-hb753e55_0 
+
+The following packages will be UPDATED:
+
+  ca-certificates                      2025.6.15-hbd8a1cb_0 --> 2025.8.3-hbd8a1cb_0 
+  certifi                            2025.6.15-pyhd8ed1ab_0 --> 2025.8.3-pyhd8ed1ab_0 
+  icu                        pkgs/main::icu-73.1-h6a678d5_0 --> conda-forge::icu-73.2-h59595ed_0 
+  openssl                                  3.5.0-h7b32b05_1 --> 3.5.2-h26f9b46_0 
+
+
+Proceed ([y]/n)? 
+
+Downloading and Extracting Packages: ...working...nodejs-20.12.2       | 16.4 MB   |            |   0% 
+icu-73.2             | 11.5 MB   |            |   0% [A
+
+openssl-3.5.2        | 3.0 MB    |            |   0% [A[A
+
+
+libuv-1.48.0         | 879 KB    |            |   0% [A[A[A
+
+
+
+certifi-2025.8.3     | 155 KB    |            |   0% [A[A[A[A
+
+
+
+
+ca-certificates-2025 | 151 KB    |            |   0% [A[A[A[A[A
+icu-73.2             | 11.5 MB   | 3          |   4% [A
+
+openssl-3.5.2        | 3.0 MB    |            |   1% [A[A
+
+
+
+certifi-2025.8.3     | 155 KB    | #          |  10% [A[A[A[Anodejs-20.12.2       | 16.4 MB   |            |   0% 
+icu-73.2             | 11.5 MB   | ###1       |  32% [A
+
+openssl-3.5.2        | 3.0 MB    | #2         |  13% [A[A
+
+
+libuv-1.48.0         | 879 KB    | 1          |   2% [A[A[A
+
+
+
+certifi-2025.8.3     | 155 KB    | ########## | 100% [A[A[A[A
+
+
+
+certifi-2025.8.3     | 155 KB    | ########## | 100% [A[A[A[A
+
+
+
+certifi-2025.8.3     | 155 KB    | ########## | 100% [A[A[A[Anodejs-20.12.2       | 16.4 MB   | 2          |   3% 
+
+openssl-3.5.2        | 3.0 MB    | ###1       |  31% [A[A
+icu-73.2             | 11.5 MB   | #####8     |  58% [A
+
+
+libuv-1.48.0         | 879 KB    | ###8       |  38% [A[A[A
+
+
+
+
+ca-certificates-2025 | 151 KB    | #          |  11% [A[A[A[A[A
+
+
+
+
+ca-certificates-2025 | 151 KB    | ########## | 100% [A[A[A[A[A
+
+
+
+
+ca-certificates-2025 | 151 KB    | ########## | 100% [A[A[A[A[Anodejs-20.12.2       | 16.4 MB   | 9          |  10% 
+
+openssl-3.5.2        | 3.0 MB    | ####6      |  46% [A[A
+icu-73.2             | 11.5 MB   | #######8   |  78% [A
+
+
+libuv-1.48.0         | 879 KB    | ########7  |  87% [A[A[A
+
+
+libuv-1.48.0         | 879 KB    | ########## | 100% [A[A[A
+
+
+libuv-1.48.0         | 879 KB    | ########## | 100% [A[A[Anodejs-20.12.2       | 16.4 MB   | #5         |  15% 
+
+openssl-3.5.2        | 3.0 MB    | ######5    |  66% [A[A
+icu-73.2             | 11.5 MB   | ########## | 100% [A
+icu-73.2             | 11.5 MB   | ########## | 100% [Anodejs-20.12.2       | 16.4 MB   | ##3        |  24% 
+
+openssl-3.5.2        | 3.0 MB    | ########3  |  84% [A[A
+icu-73.2             | 11.5 MB   | ########## | 100% [A
+
+openssl-3.5.2        | 3.0 MB    | ########## | 100% [A[Anodejs-20.12.2       | 16.4 MB   | ###        |  31% 
+
+openssl-3.5.2        | 3.0 MB    | ########## | 100% [A[A
+
+openssl-3.5.2        | 3.0 MB    | ########## | 100% [A[Anodejs-20.12.2       | 16.4 MB   | ###9       |  40% nodejs-20.12.2       | 16.4 MB   | ######2    |  63% nodejs-20.12.2       | 16.4 MB   | #########  |  90% nodejs-20.12.2       | 16.4 MB   | ########## | 100% nodejs-20.12.2       | 16.4 MB   | ########## | 100%                                                      
+                                                     [A
+
+                                                     [A[A
+
+
+                                                     [A[A[A
+
+
+
+                                                     [A[A[A[A
+
+
+
+
+                                                     [A[A[A[A[A done
+Preparing transaction: / done
+Verifying transaction: \ | done
+Executing transaction: - \ | / - \ | / - \ | done
